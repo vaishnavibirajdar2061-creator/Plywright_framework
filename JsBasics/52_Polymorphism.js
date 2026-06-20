@@ -58,3 +58,21 @@ class Test
 let t1=new Test();
 t1.login("Jay","test123");
 
+console.log("-----------------------------");
+
+
+function add()
+{
+    console.log("This is add().....");
+    
+}
+
+
+// function add(a,b)//SyntaxError: Identifier 'add' has already been declared
+// {
+//     console.log("This is addition:"+(a+b));
+    
+// }
+
+//calling
+add();

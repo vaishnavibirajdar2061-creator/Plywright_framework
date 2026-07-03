@@ -55,7 +55,7 @@ console.log(typeof report);//boolean
 
 //Function
 //3.void type: voidwe use to define return type to function
-// void means function does not return any value
+//void means function does not return any value
 
 
 function test():void
@@ -66,7 +66,7 @@ function test():void
 
 test();
 
-//function with return
+//function with return type
 function add(a:number,b:number):number
 {
 return a+b;
@@ -94,8 +94,49 @@ return "Hello "+sname;
 let res:string=t2("Pravin");
 console.log(res);
 
+console.log("----------------");
+/*
+4.never: this is applicable for function
+functions which never complete normally there we can use never.
+- function run forever
+- function which throw error
 
-//Union (|): A union type allows variable to have more than one type
+*/
+
+//Scenario: test executing on env: QA,Stage,Prod ,Error UAT
+
+function testEnv(envName:string):void
+{
+  if(envName==='UAT')
+  {
+    throw new Error("Invalid Env for Test: "+envName);
+  }else{
+    console.log("Valid Env for Test!");
+    
+  }
+}
+
+function testWrongEnv(envName:string):never
+{
+  throw new Error("Invalid Env For Test! "+envName);
+}
+
+//testWrongEnv("UAT");
+
+function test2():never
+{
+for(;;)
+{
+  console.log("Hi");
+  
+}
+}
+
+test2();
+
+
+
+//5.Union (|): A union type allows variable to have more than one type
 
 let postalcode:number|string;
 

@@ -17,7 +17,7 @@ protected               yes                 yes                  No
 Rule for Private data/method
 ---------------------------
 Private data we can call in same class thats the reason you need 
-to follow encapsualation means to access private data create public method
+to follow encapsulation means to access private data create public method
 */
 
 

@@ -1,0 +1,113 @@
+
+
+Playwright
+=================
+It is end to end testing framework for webUI and API testing
+
+How many ways are there to design test case
+========================================
+1.Using Playwright Test runner(recommended)
+---------------------------------
+- Playwright has inbuilt test runner
+- this runner execute test based on pw.config.ts
+
+import {test} from "@playwright/test"
+
+
+
+2.Using async function(IIFE)
+------------------------------------
+not recommended it is not based on Pw.confing.ts
+
+========================================================
+Fixtures
+================
+Fixtures like test enviornment and it supply objects/data to the test case
+
+Playwright support two types of fixtures
+--------------------------
+1.Inbuilt
+------------------------
+1.Browser(open Pw customize browser)
+2.Context(for same browser creating context: incognito window)
+3.Page(defualt: open tab inside browser)
+4.Request(used to API testing)
+
+
+2.Custom
+---------------
+Framework design
+
+===================================
+Playwright commands/methods
+-----------------------------
+1.To open any application
+ page.goto("url"): Promise<Response | null>
+
+2.To get the current page title
+    page.title(): Promise<string>
+
+3.To get the currenturl of the page
+    page.url(): string
+
+Workers
+============
+Interview Answer 
+• Playwright workers are separate processes used to 
+execute test files in parallel.  
+• By default, Playwright automatically determines the 
+worker count based primarily on the number of logical 
+CPU cores available on the system, typically using about 
+half of them.  
+• This default can be overridden using the workers option 
+in playwright.config.ts or the --workers command-line 
+argument.  
+• The optimal number of workers also depends on 
+available RAM and the execution environment (local 
+machine or CI/CD).
+
+echo %NUMBER_OF_PROCESSORS%
+
+To Run playwright test
+===========================
+By deafult playwright exeutes every test case in headless mode(Without UI)
+
+1. To run all test cases from all spec file(collection of test cases: suite)
+    npx playwright test
+
+2. To run specific test 
+    npx playwright test tests/Tc001_FirstTest.spec.ts
+
+3. To run tets with UI
+    npx playwright test tests/Tc001_FirstTest.spec.ts --headed
+
+4. To run test by customizing playwright worker
+    npx playwright test tests/Tc001_FirstTest.spec.ts --headed --workers=1(sequentail executing)
+
+5. To run Playwright test through playwright UI(dashboard)
+    npx playwright test tests/Tc001_FirstTest.spec.ts --ui
+    
+6. To run test case on one browser
+npx playwright test tests/Tc001_FirstTest.spec.ts --headed --project=webkit
+
+Assertions
+===================
+-PW support inbuit assertions for validation of curent application state
+-Assertions will help you to test actual result vs expected result
+
+PW support two types of Assertion
+
+1.Hard Assertion
+-------------------
+- If assertion fail then test will stop on that line not continue remaining execution
+- hard assertion we implement in PW using expect()
+
+2.Soft Assertion
+--------------------
+- If assertion fail then test will not stop excution you will see error and test continue remaining execution
+- hard assertion we implement in PW using expect.soft()
+
+
+
+
+

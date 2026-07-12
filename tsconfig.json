@@ -11,6 +11,6 @@
 "forceConsistentCasingInFileNames": true, 
 "types": ["node", "@playwright/test"] 
 }, 
-"include":["tests/**/*.ts", "playwright.config.ts","tests-examples/demotodo-app.spec.ts","tests/example.spec.ts"] 
+"include":["tests/**/*.ts","playwright.config.ts","tests-examples/demotodo-app.spec.ts","tests/example.spec.ts"] 
 
 }

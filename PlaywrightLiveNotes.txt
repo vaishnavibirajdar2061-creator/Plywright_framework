@@ -28,7 +28,7 @@ Playwright support two types of fixtures
 --------------------------
 1.Inbuilt
 ------------------------
-1.Browser(open Pw customize browser)
+1.Browser(open Pw customize browser chromium/webkit/firefox)
 2.Context(for same browser creating context: incognito window)
 3.Page(defualt: open tab inside browser)
 4.Request(used to API testing)
@@ -107,7 +107,9 @@ PW support two types of Assertion
 - If assertion fail then test will not stop excution you will see error and test continue remaining execution
 - hard assertion we implement in PW using expect.soft()
 
-
+===================================================================
+18-07-2026
+================
 
 
 

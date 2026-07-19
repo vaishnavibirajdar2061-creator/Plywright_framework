@@ -110,6 +110,135 @@ PW support two types of Assertion
 ===================================================================
 18-07-2026
 ================
+channel
+================
+Browser distribution channel.
+
+Use "chromium" to opt in to new headless mode.
+
+Use "chrome", "chrome-beta", "chrome-dev", "chrome-canary", "msedge", "msedge-beta", "msedge-dev", or "msedge-canary" to use branded Google Chrome and Microsoft Edge.
+
+newContext():Promise<BrowserContext>
+-------------------
+Creates a new browser context. It won't share cookies/cache with other browser contexts.
+
+newPage():Promise<Page>
+---------------
+Creates a new page in the browser context.
+
+19-07-2026
+-----------------
+Navigation Commands In PW
+===============================
+Page.reload(): await page.reload();
+This method reloads the current page, in the same way as if the user had triggered a browser refresh.
+
+Page.goForward(): await page.goForward();
+Navigates to the next page in the browser history.
+
+Page.goBack(): await page.goBack();
+Navigates to the previous page in the browser history.
+
+
+goto("url",WaitUntil?: state)
+------------------------
+When to consider operation succeeded, defaults to load. 
+Events can be either:
+'domcontentloaded' - consider operation to be finished when the DOMContentLoaded event is fired.
+'load' - consider operation to be finished when the load event is fired.
+'networkidle' - DISCOURAGED consider operation to be finished when there are no network connections for at least 500 ms. Don't use this method for testing, rely on web assertions to assess readiness instead.
+'commit' - consider operation to be finished when network response is received and the document started loading.
+
+
+
+Attributes in PW
+=================
+only: test.only(): test will run
+skip: test.skip(): test case will skip from current execution
+
+How to automate any WebElement
+=================================
+WebElement is any UI element from application
+example: inputbox,radiobutton,link,checkbox,button,dropdown,logo
+
+1.Identify element address
+2.Using PW method locate element and perform action
+
+PW identify webelement using locator
+
+What is Locator?
+---------------------
+Locator is address of webelement from webpage
+
+Playwright support 3 locator strategies
+=======================================
+1.Playwright 7 Inbuilt locators
+-----------------------------------
+page.getByRole() to locate by explicit and implicit accessibility attributes.
+page.getByText() to locate by text content.
+page.getByLabel() to locate a form control by associated label's text.
+page.getByPlaceholder() to locate an input by placeholder.
+page.getByAltText() to locate an element, usually image, by its text alternative.
+page.getByTitle() to locate an element by its title attribute.
+page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
+
+2.Using cssSelectors
+
+3.Using Xpath
+===============================================
+Pw Methods
+============
+page.locator():Locator
+------------------
+The method returns an element locator that can be used to perform actions on this page / frame
+
+Actions
+===================
+click: click()
+enter data: fill()
+to clear text: clear()
+
+Playwright provides autowait(30sec) for all actionable commands
+---------------------------------------------------------------
+Playwright performs a range of actionability checks on the elements before making actions to ensure these actions behave as expected. 
+It auto-waits for all the relevant checks to pass and only then performs the requested action. 
+If the required checks do not pass within the given timeout, action fails with the TimeoutError.
+
+For example, for locator.fill(), Playwright will ensure that:
+locator resolves to exactly one element
+element is Visible
+element is Stable, as in not animating or completed animation
+element Receives Events, as in not obscured by other elements
+element is Enabled
+element is editable
+
+
+
+
+
+=================================
+Identify Elements using CssSelector
+===================================
+-CssSelector is locator to locate the webelement based on Css property of that element
+-CssSelector is faster than xpath as it can travel only in one direction
+Parent node to child node 
+-In cssSelector we dont have method support
+
+1.tagname with id
+2.tagname with attribute
+3.tagname with className
+4.tagname with id,attribute or class
+
+<input type="text" name="email" value="" placeholder="E-Mail Address" id="input-email" class="form-control">
+
+1.tagname with id
+-------------------
+Syntax:
+----------
+tagname#id
+
+example: input#input-email or #input-email   1 of 1
+
 
 
 

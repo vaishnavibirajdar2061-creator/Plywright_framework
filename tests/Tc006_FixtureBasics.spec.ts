@@ -1,7 +1,7 @@
 
 
 import {test,BrowserContext,Page} from "@playwright/test"
-/*
+
 test("starts browser-->context--->page",async({browser})=>{
 
 //browser---> newContext(): Creates a new browser context. It won't share cookies/cache with other browser contexts.
@@ -14,7 +14,7 @@ let page1:Page=await context1.newPage();//Creates a new page in the browser cont
 await page1.goto("https://www.google.com");
 
 
-//context2
+//context2:
 let context2:BrowserContext=await browser.newContext();
 
 //open tabs: page
@@ -26,7 +26,7 @@ await page2.goto("https://www.facebook.com");
 await page2.waitForTimeout(3000);
 
 })
-*/
+
 test("Browser-->context--->2tabs",async({browser})=>{
 
     //browser--->open context

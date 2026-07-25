@@ -3,28 +3,28 @@
 import {Locator, test} from "@playwright/test"
 
 
-test("Test for login functionality",async({page})=>{
+test("Test for Google basic search",async({page})=>{
+
+await page.goto("https://www.google.com/");
+
+//Stratrgy1: Identify + Validation + Action
+let searchBox:Locator=page.locator("#APjFqb");
+
+//validation
+console.log("Is element is visible?: "+await searchBox.isVisible());
+console.log("Is element is enabled?: "+await searchBox.isEnabled());
+console.log("Is element is editable?: "+await searchBox.isEditable());
+
+//action
+await searchBox.fill("Playwright");
+await page.waitForTimeout(1000);
+await searchBox.clear();
 
 
-    //open app
-    await page.goto("https://tutorialsninja.com/demo/index.php?route=account/login");
-/*
-    //email ele: identifyElement+validate+action
-    let emailEle:Locator=page.locator("#input-email");
-    console.log("Is EmailEle is visible: "+await emailEle.isVisible());
-    console.log("Is emailEle is editable: "+await emailEle.isEditable());
-    console.log("Is Element is enable "+await emailEle.isEnabled());
-
-    //action
-    await emailEle.fill("test@gmail.com");
-*/
-
-//identify element +action
-await page.locator("#input-email").fill("test@gmail.com");
+//Stratrgy2: Identify + Action
+await page.locator("#APjFqb").fill("Selenium");
 
     
-    
-    await page.waitForTimeout(2000);
-
-
+//pause
+await page.waitForTimeout(2000);
 })

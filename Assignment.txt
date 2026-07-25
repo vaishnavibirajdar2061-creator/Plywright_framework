@@ -1,0 +1,28 @@
+
+Assignment1: Open website and verify title.
+Steps
+Launch browser miscrosoft edge
+Navigate to website https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+Verify page title
+Verify URL
+Expected
+Correct title OrangeHRM should display
+Correct URL should open
+
+
+Assignment2:Practice navigation methods.
+Steps
+Open https://www.amazon.in/
+open Fashion page
+get the title and print same
+Navigate back
+get the title and print same
+Navigate forward
+get the title and print same
+Reload page
+
+Assignment3: Write script for Login Functionality of Orangehrm using cssSelector
+Use URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Assignment4: Write script for Login Functionality of Orangehrm using xpath
+Use URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login

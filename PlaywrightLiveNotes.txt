@@ -192,11 +192,18 @@ page.locator():Locator
 ------------------
 The method returns an element locator that can be used to perform actions on this page / frame
 
-Actions
+Actionable commands
 ===================
-click: click()
-enter data: fill()
-to clear text: clear()
+click():Click an element.
+fill():Set a value to the input field.
+clear():Clear the input field.
+check():Ensure that checkbox or radio element is checked.
+
+To get the visible text/html inner text of element 
+---------------------------------------------
+textContent():Returns the node.textContent
+innerText():Returns the element.innerText.(Recommended): Promise<String>
+
 
 Playwright provides autowait(30sec) for all actionable commands
 ---------------------------------------------------------------
@@ -228,6 +235,23 @@ Assertion commands
 ===========================
 1.toHaveTitle(): Ensures the page has the given title.
 2.toHaveURL(): Ensures the page is navigated to the given URL.
+
+
+
+When Multiple elements matched and if you unique element to select
+then use first(), last(), nth(index)
+=========================================
+first(): Returns locator to the first matching element.
+last(): Returns locator to the last matching element.
+nth(index): Returns locator to the n-th matching element. It's zero based, nth(0) selects the first element.
+
+
+
+
+
+
+
+
 
 =================================
 Identify Elements using CssSelector
@@ -371,14 +395,115 @@ Xpath Syntax:
 ==============
 //tagname[@attribute='value']
 
+========================================================
+xpath Operators
+======================
+1.and
+--------------
+syntax:
+-------------
+//tagname[@attribute='value' and @attribute='value']
+example: //input[@name='firstname' and @class='form-control']   1 of 1
+
+2.or
+-------------
+syntax:
+-------------
+//tagname[@attribute='value' or @attribute='value']
 
 
+Xpath Indexing or position()
+===================
+Syntax:
+---------------
+(xpath)[index]
+
+OR
+(xpath)[position()=index]
+
+=======================================================
+Xpath Methods
+===================
+1.text()
+-----------------
+This method identify element based on visible text 
+but this method never ignore white space before and after text
+
+syntax:
+------------
+//tagname[text()='visible text']
 
 
+2.normalize-space():Recommended
+-----------------
+This method identify element based on visible text 
+and this method ignore white space before and after text like trim() of string
+syntax:
+------------
+//tagname[normalize-space()='visible text']
+
+3.contains(): partial match of text/attribute (like includes in Js)
+----------------------------------
+Syntax:
+-------------
+//tagname[contains(@attribute,'partail value')]
+OR
+//tagname[contains(text(),'partial text')]
 
 
+4.starts-with(): prefix match 
+Syntax:
+-------------
+//tagname[starts-with(@attribute,'partail value')]
+OR
+//tagname[starts-with(text(),'partial text')]
+
+===================================================================
+Xpath Axies
+===================
+1.ancestor
+------------------
+Syntax:
+--------------
+//tagname[@attribute='value']//ancestor::ancestor tagname
+
+2.parent
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//parent::parent tagname
 
 
+3.Child
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//child::child tagname
+
+4.following
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//following::following tagname
+
+5.following-sibling
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//following-sibling::following-sibling tagname
+
+6.preceding
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//preceding::preceding tagname
+
+
+7.preceding-sibling
+------------------
+Syntax:
+-----------------
+//tagname[@attribute='value']//preceding-sibling::precedingsibling tagname
 
 
 

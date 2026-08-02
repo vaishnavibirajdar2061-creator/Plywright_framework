@@ -198,6 +198,7 @@ click():Click an element.
 fill():Set a value to the input field.
 clear():Clear the input field.
 check():Ensure that checkbox or radio element is checked.
+count():Returns the number of elements matching the locator.
 
 To get the visible text/html inner text of element 
 ---------------------------------------------
@@ -246,7 +247,9 @@ last(): Returns locator to the last matching element.
 nth(index): Returns locator to the n-th matching element. It's zero based, nth(0) selects the first element.
 
 
-
+Debugging commands
+=====================
+hightlight():Highlight the corresponding element(s) on the screen. Useful for debugging
 
 
 
@@ -341,11 +344,15 @@ Parent to child Relation/interaction
 Syntax:
 ParentTagname childTagname  :direct + indirect child ele will get selected 
 
+aside a   1 of 13 as aside tag is indirect parent
+
 9. Direct child node
 
 Syntax:
 Parenttagname>childtagname   :direct child elements get selected
 
+div.list-group>a    1 of 13   div tag is direct parent
+div.list-group a    1 of 13
 
 CssSelector with indexing
 ================================
@@ -506,6 +513,23 @@ Syntax:
 //tagname[@attribute='value']//preceding-sibling::precedingsibling tagname
 
 
+=====================================
+<tbody>------------------ancestor
+<tr>----------------parent
+ 
+         <td>4</td>-------------preceding sibling
 
+          <td>John</td>-------------element
 
+          <td>Robinson</td>--------------following sibling
+
+          <td>jr5527</td>--------------following sibling
+ 
+         <td>--------------following sibling
+              <a href="user.html"><i class="icon-pencil"></i></a>
+              <a role="button" href="#myModal" data-toggle="modal"><i class="icon-remove"></i></a>
+          </td>
+
+        </tr>
+</tbody>
  

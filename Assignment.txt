@@ -26,3 +26,13 @@ Use URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 
 Assignment4: Write script for Login Functionality of Orangehrm using xpath
 Use URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Assignment5: Write script for Amazon footers get all footers in console
+Use URL:https://www.amazon.in/
+
+Assignment6: Write script for freshworks footers get all footers in console
+Use URL:https://www.freshworks.com/
+
+Assignment7: automate Google search with css and xpath
+
+Assignment8: Automate amazon search with css and xpath

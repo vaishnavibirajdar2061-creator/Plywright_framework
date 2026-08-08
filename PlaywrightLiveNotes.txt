@@ -178,6 +178,7 @@ page.getByRole() to locate by explicit and implicit accessibility attributes.
 page.getByText() to locate by text content.
 page.getByLabel() to locate a form control by associated label's text.
 page.getByPlaceholder() to locate an input by placeholder.
+
 page.getByAltText() to locate an element, usually image, by its text alternative.
 page.getByTitle() to locate an element by its title attribute.
 page.getByTestId() to locate an element based on its data-testid attribute (other attributes can be configured).
@@ -252,6 +253,15 @@ Debugging commands
 hightlight():Highlight the corresponding element(s) on the screen. Useful for debugging
 
 
+Multiple WebElements
+=============================
+1.allInnertTexts():string[]
+-----------------------------------
+Returns an array of node.innerText values for all matching nodes.
+
+2.all():Locator[]
+--------------------
+When the locator points to a list of elements, this returns an array of locators, pointing to their respective elements.
 
 
 
@@ -359,6 +369,9 @@ CssSelector with indexing
 Syntax:
 -------------
 Parenttagname>childtagname:nth-child(index)
+
+
+
 ===================================================================
 
 2.Using Xpath Locator
@@ -532,4 +545,72 @@ Syntax:
 
         </tr>
 </tbody>
- 
+ ===================================================
+
+ Javascript commands Execution
+ ===================================
+1.Page scroll 
+2.Get the current page title :document.title
+3.Refresh the page :history.go()
+4.Identification of element and perform action
+5.Hidden/ disable element automation possible
+
+To Run any Javascript command using Playwright we use evaluate()
+
+
+dropdown Automation
+===========================
+
+
+calendar/datepicker
+=================
+
+alert
+
+frame
+
+file upload/download
+
+window handling
+
+shadow dom ele
+
+svg ele
+
+TestData reading technique
+=========================
+1.Json file
+2.csv file
+3.excel file
+
+screenshots
+video
+
+Framework design
+====================
+
+
+
+Devops
+============
+Jenkins
+Github actions
+
+Cucumber integration
+
+AI Integration
+===================
+AI Agents
+MCP framework
+
+
+
+
+
+
+
+
+
+
+
+

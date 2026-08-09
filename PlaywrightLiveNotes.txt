@@ -556,11 +556,101 @@ Syntax:
 5.Hidden/ disable element automation possible
 
 To Run any Javascript command using Playwright we use evaluate()
+Syntax:
+----------
+page.evaluate(()=>{
+     javascript command
+})
+
+What evaluate() does
+It executes the function you pass in the page’s context, not in Node.js.
+This means it can access browser objects like:
+document,window,localStorage
+
+Why use evaluate()?
+To read or modify the DOM
+To run custom JavaScript inside the webpage
+To get values not directly exposed by Playwright API
+evaluate() is more flexible when accessing any page-level JavaScript.
+
+TypeCasting in Typescript
+-------------------------
+as HTMLInputElement is called Type Casting. 
+It tells TypeScript that the selected web element is an Input Box 
+so that we can use input-specific properties like .value
+
+An Element is a generic DOM element. 
+TypeScript doesn't know whether it's:
+input
+button
+div
+span
+Since a generic Element doesn't have a value property, this gives an error:
+
+const input=document.querySelector("#twotabsearchtextbox") as HTMLInputElement;
+
+const btn = document.querySelector("#loginBtn") as HTMLButtonElement;
+
+const image = document.querySelector("#logo") as HTMLImageElement;
+
+const link = document.querySelector("#homeLink") as HTMLAnchorElement;
 
 
-dropdown Automation
+1.How to scroll any webpage
+----------------------------
+To Run any custom javascript command then we use evaluate()
+
+ await page.evaluate(()=>{
+        window.scrollTo(0,document.body.scrollHeight);
+    })
+
+2.How to refresh webpage
+await page.evaluate(()=>{
+        window.history.go();
+    })
+
+
+3.how to get the title
+
+document.title;
+
+--------------------------
+4.how to perform operation on element
+
+await page.evaluate(()=>{
+    let ele=document.querySelector("#enabled-example-input") as HTMLInputElement;
+    ele.value="Hello All";
+
+})
+--------------------------------------
+5.how to automate hidden element/disable
+
+await page.evaluate(()=>{
+    let ele=document.querySelector("#enabled-example-input") as HTMLInputElement;
+    ele.value="Hello All";
+
+})
+
+============================================================
+Dropdown Automation
 ===========================
+1. Select tag based dropdown
+----------------------------
+Playwright support selectOption() method to work with <select> tag based dropdown
+ 1.select by visibletext
+ 2.select by label
+ 3.select by index
+ 4.select by value
 
+For multiple selection
+---------------------------
+selectOption(['option1','option2']);
+
+2. Autosuggestion/javascript/Bootstrap drodown
+--------------------------------------------------
+The ways you manually interact with dropdown in the same way you have to automate
+
+===============================================================
 
 calendar/datepicker
 =================

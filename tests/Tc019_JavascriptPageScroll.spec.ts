@@ -7,6 +7,7 @@ test("Test for Page scroll",async({page})=>{
 
     await page.goto("https://testautomationpractice.blogspot.com/p/playwrightpractice.html");
 
+  
     //scroll down
    await page.evaluate(()=>{
      //window.scrollTo(0,6000);

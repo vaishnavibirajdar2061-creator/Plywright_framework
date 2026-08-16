@@ -36,3 +36,11 @@ Use URL:https://www.freshworks.com/
 Assignment7: automate Google search with css and xpath
 
 Assignment8: Automate amazon search with css and xpath
+
+Assignment 9:
+automate all dropdowns https://www.jqueryscript.net/demo/Drop-Down-Combo-Tree/#google_vignette from this app
+
+Assignment 10:
+Navigate to https://www.redbus.in/ and automate dropdown from and to both
+
+Assignment 11: Navigate https://www.redbus.in/ and automate datPicker

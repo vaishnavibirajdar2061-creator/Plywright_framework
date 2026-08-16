@@ -645,15 +645,33 @@ Playwright support selectOption() method to work with <select> tag based dropdow
 For multiple selection
 ---------------------------
 selectOption(['option1','option2']);
-
+---------------------------------------------------------
 2. Autosuggestion/javascript/Bootstrap drodown
 --------------------------------------------------
 The ways you manually interact with dropdown in the same way you have to automate
-
+filter()
 ===============================================================
-
 calendar/datepicker
 =================
+no special method
+=================================================================
+filter():Locator: 
+This method narrows existing locator according to the options, for example filters by text.
+It can be chained to filter multiple times.
+    has?: Locator | undefined;
+    hasNot?: Locator;
+    hasNotText?: string | RegExp;
+    hasText?: string | RegExp;
+    visible?: boolean;
+
+===============================================================
+TestData reading technique
+=========================
+1.Json file
+2.csv file
+3.excel file
+
+
 
 alert
 
@@ -667,11 +685,7 @@ shadow dom ele
 
 svg ele
 
-TestData reading technique
-=========================
-1.Json file
-2.csv file
-3.excel file
+
 
 screenshots
 video

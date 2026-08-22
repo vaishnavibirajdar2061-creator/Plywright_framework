@@ -44,3 +44,9 @@ Assignment 10:
 Navigate to https://www.redbus.in/ and automate dropdown from and to both
 
 Assignment 11: Navigate https://www.redbus.in/ and automate datPicker
+
+//reading test data from csv,json,excel
+Assignment 12: Navigate to https://tutorialsninja.com/demo/index.php?route=account/register
+Maintaing test data fro register in Jsonfile,csv file and excel file 
+and write test case where you can read data from file and use it in test case.
+

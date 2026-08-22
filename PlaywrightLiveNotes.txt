@@ -667,9 +667,16 @@ It can be chained to filter multiple times.
 ===============================================================
 TestData reading technique
 =========================
-1.Json file
+1.Json file(No external library required to install)
+
 2.csv file
+Papaparse libary
+
 3.excel file
+SheetJs/ XLSX library
+
+Data Driven Testing
+==========================
 
 
 
@@ -685,7 +692,7 @@ shadow dom ele
 
 svg ele
 
-
+mouse operation
 
 screenshots
 video

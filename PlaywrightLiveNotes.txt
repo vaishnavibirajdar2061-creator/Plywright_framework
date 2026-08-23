@@ -674,25 +674,78 @@ Papaparse libary
 
 3.excel file
 SheetJs/ XLSX library
-
+================================================
 Data Driven Testing
 ==========================
+-Executing same set of action with multiple data multiple time 
+-Executing test with multiple set of data
+Scenario:
+login
+register
+
+Playwright Ways
+------------------
+1.Using Array
+2.Using JSON file
+3.Using CSV file
+5.Using Excel file
+
+=====================================================
+Alert/Dialogs automate
+=====================
+-Alerts are appear due to some wrong steps made by user 
+-alerts need to handle but in playwright, Playwright auto dismiss alert
+any simple and confirmation alerts will autio dismiss by playwright
+-We can test it/handle it using page.on() listener
+
+By default, dialogs are auto-dismissed by Playwright, 
+so you don't have to handle them.
+However, you can register a dialog handler before the action
+that triggers the dialog to either dialog.accept() or dialog.dismiss() it.
+
+Types of Dialogs
+=====================
+1.Simple alert (OK)
+2.Confirmation alert (OK and cancel)
+3.Prompt alert (pass the data Ok,cancel)
+
+Whenever we are handling it manually
+-------------------------------------
+dialog events 5 methods
+----------------------
+1.To get the type of alert: type()
+2.To get the text of alert: message()
+3.To simulate action of OK: accept()
+4.To simulate action of cancel button: dismiss()
+5.To simulate propmp: accept(promt)
+
+Authentication popup
+==========================
+Authentication popup where we need to share app credentials
+So in playwright is can store the credentials and pass it along with request
+brower context(store credentials)--->through the page we provide it to app
 
 
 
-alert
+=========================================================
+
+WebTable
 
 frame
 
+window handling
+
 file upload/download
 
-window handling
+mouse operation
 
 shadow dom ele
 
 svg ele
 
-mouse operation
+Assertion
+
+Playwright codegen,tags,grouping
 
 screenshots
 video

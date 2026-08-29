@@ -50,3 +50,14 @@ Assignment 12: Navigate to https://tutorialsninja.com/demo/index.php?route=accou
 Maintaing test data fro register in Jsonfile,csv file and excel file 
 and write test case where you can read data from file and use it in test case.
 
+
+Assignment 12: Navigate to https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+and automate for dynamic table 
+
+1.CPU load of Chrome process: 2.0%
+
+2.Memory Size of Firefox process: 99.4 MB
+
+3.Network speed of Chrome process: 7.4 Mbps
+
+4.Disk space of Firefox process: 0.70 MB/s

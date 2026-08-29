@@ -725,11 +725,28 @@ Authentication popup where we need to share app credentials
 So in playwright is can store the credentials and pass it along with request
 brower context(store credentials)--->through the page we provide it to app
 
-
-
 =========================================================
-
 WebTable
+============
+Types
+------------
+1.static table
+2.dynamic table
+3.pagination table
+
+Scenarios:
+=============
+1.Number of rows
+2.Number of columns
+3.Number of data
+4.Specific row
+5.Specific column
+6.Specific data
+
+Xpath locator
+-----------------
+=====================================================
+
 
 frame
 

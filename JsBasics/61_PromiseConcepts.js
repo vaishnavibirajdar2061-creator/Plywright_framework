@@ -223,38 +223,6 @@ Promise.all([t1,t2,t3]).then((res)=>{
 console.log(res);
 
 })
-console.log("-----Async method-----");
-
-
-let p11=new Promise((resolve,reject)=>{
-setTimeout(() => {
-    resolve("Application launch successfully!")
-},2000);
-})
-
-
-let p12=new Promise((resolve,reject)=>{
-setTimeout(() => {
-    resolve("Get the title!")
-},1000);
-})
-
-let p13=new Promise((resolve,reject)=>{
-setTimeout(() => {
-    resolve("Application closed!")
-},3000);
-})
-
-
-Promise.all([p11,p12,p13]).then((res)=>{
-console.log(res);
-
-})
-
-
-
-
-
 
 
 

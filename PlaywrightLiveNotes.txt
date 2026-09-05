@@ -746,11 +746,28 @@ Scenarios:
 Xpath locator
 -----------------
 =====================================================
+frame/iframe
+==============
+- One html document is embeded into another html document and that section/area/waindow
+is called frame
+-A section/window used to display another html document then is called frame
 
+<iframe> inline frame or <frame>
 
-frame
+<iframe> element</iframe>
 
-window handling
+logic
+-------------
+1. Identify frame/iframe: frameLocator()
+2. from frame identify element
+
+Total frames from the page
+----------------------------
+page.frames():Frame[]
+
+name() & url()
+=====================================================
+Window handling
 
 file upload/download
 

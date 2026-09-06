@@ -768,6 +768,20 @@ page.frames():Frame[]
 name() & url()
 =====================================================
 Window handling
+==================
+browser--->context--->handle multiple window
+
+//executes in parallel
+let [collect page]=await Promise.all([
+                            start the event
+                            perform action
+                        ])
+
+
+To focus/activate any page
+------------------------
+page.bringToFront()
+=========================================================
 
 file upload/download
 

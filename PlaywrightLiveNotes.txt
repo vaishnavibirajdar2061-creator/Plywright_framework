@@ -782,11 +782,34 @@ To focus/activate any page
 ------------------------
 page.bringToFront()
 =========================================================
-
 file upload/download
+--------------------------
+1. where type='file'
+setInputFiles():Upload file or multiple files into <input type=file>.
+ For inputs with a [webkitdirectory] attribute, only a single directory path is supported.
 
-mouse operation
 
+2.Where type='file' attribute is not there in html code
+then use filechooser event
+
+ page.waitForEvent('filechooser')
+
+3. Download file in current project
+
+ page.waitForEvent('download')
+-------------------------------------------------------------------
+Mouse & keyboard operation
+======================
+-duble click: dblclick()
+-right click: click({button:'right'})
+-mouse hover: hover()
+-drag and drop:
+
+-Keyboard: 
+copy and paste
+press tab button, press enter
+
+-------------------------------------
 shadow dom ele
 
 svg ele

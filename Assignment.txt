@@ -65,3 +65,12 @@ and automate for dynamic table
 Assignment 14: iframe Automation
 Automate Nested frame google form and frame4 and frame5
 Use URL: https://ui.vision/demo/webtest/frames/
+
+Assignment 15: File Upload
+Navigate to https://naveenautomationlabs.com/opencart/ui/file-upload.html
+and automate all scenarios
+
+Assignment 16:
+Navigate to https://testautomationpractice.blogspot.com/p/playwrightpractice.html and automate d
+double click and mouse hover scenario
+

@@ -74,3 +74,7 @@ Assignment 16:
 Navigate to https://testautomationpractice.blogspot.com/p/playwrightpractice.html and automate d
 double click and mouse hover scenario
 
+Assignment 17: Shadow Dom
+Navigate to https://testautomationpractice.blogspot.com/ app and 
+automate textbox,checkbox,filechooser,youtube link.
+

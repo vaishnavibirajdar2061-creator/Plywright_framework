@@ -65,7 +65,7 @@ await alertBox.accept();
 
 
 
-test.only("Test for Mouse hover",async({page})=>{
+test("Test for Mouse hover",async({page})=>{
 
     await page.goto("https://www.naukri.com/");
 
@@ -84,6 +84,110 @@ for(let i of allOptions)
     }
     
 }
+
+
+await page.waitForTimeout(2000);
+})
+
+test("Test for drag and drop scenario ",async({page})=>{
+
+await page.goto("https://jqueryui.com/droppable/#default");
+
+//element is inside frame
+let frame1=page.frameLocator("iframe.demo-frame");
+
+let srcElement=frame1.locator("#draggable");
+let targetElement=frame1.locator("#droppable");
+
+//dragTo():Promise<void>: Drag the source element towards the target element and drop it.
+await srcElement.dragTo(targetElement);
+
+await page.waitForTimeout(2000);
+})
+
+
+//keyboard operations
+test("Test for Copy and paste scenario",async({page})=>{
+
+    /*
+    Windows
+    -----------
+    Control+A : select entire text
+    Control+C : Copy
+    Control+V :paste
+
+    Mac
+    ------------
+    Meta+A: select All
+    Meta+C: copy
+    Meta+V: paste
+
+    common solution
+    ------------------
+    ControlOrMeta+A: select all
+    ControlOrMeta+C: Copy
+    ControlOrMeta+V: paste
+
+    */
+await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+
+//username
+let username:Locator=page.getByPlaceholder("Username");
+
+await username.fill("Admin");
+//select data
+await username.press("ControlOrMeta+A");
+//copy data
+await username.press("ControlOrMeta+C");
+
+//password
+let passwordEle:Locator=page.getByPlaceholder("Password");
+await passwordEle.press("ControlOrMeta+V");
+
+//await passwordEle.press("Digit1Digit2Digit3");
+
+//get the entered data from text box: inputValue()
+console.log("Paste value is: "+await passwordEle.inputValue());
+
+
+await page.waitForTimeout(2000);
+
+})
+
+
+test("Test for Registartion feature with keyboard commands",async({page})=>{
+
+await page.goto("https://tutorialsninja.com/demo/index.php?route=account/register");
+
+//username
+await page.getByPlaceholder("First Name").pressSequentially("Kiran",{delay:1000});
+//lastname
+await page.keyboard.press('Tab');
+await page.keyboard.type("Sharma");
+//email
+await page.keyboard.press('Tab');
+let time=new Date().getTime();
+let email="kiran2026"+time+"@gmial.com";
+await page.keyboard.type(email);
+//telephone
+await page.keyboard.press('Tab');
+await page.keyboard.type("7907098");
+//password
+await page.keyboard.press('Tab');
+await page.keyboard.type("test123");
+//confirm password
+await page.keyboard.press('Tab');
+await page.keyboard.type("test123");
+
+await page.keyboard.press('Tab');
+await page.keyboard.press('Tab');
+await page.keyboard.press('Tab');
+
+//checkbox
+await page.locator("input[name='agree']").check();
+await page.keyboard.press('Tab');
+await page.keyboard.press('Enter');
+
 
 
 await page.waitForTimeout(2000);

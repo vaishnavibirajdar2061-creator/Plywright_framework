@@ -811,9 +811,43 @@ press tab button, press enter
 
 -------------------------------------
 shadow dom ele
+--------------------
+Shadow DOM:
+Shadow DOM is a private/isolated DOM inside a web element, used to keep its HTML and CSS separate from the main page.
 
+In simple words:
+Shadow DOM = DOM inside a DOM, with isolation.
+
+what is Shadow DOM?
+----------------------
+Whenever DOM is loaded inside another DOM is called Shadow DOM
+Logic
+----------
+main document-->shadow host-->shadow root-->shadow ele
+
+Which element we can called as shadow element?
+----------------------------------------
+if element is designed with #shadow-root(open) then that element is shadow ele
+
+Parent tag/element for shadow element is shadow root
+Parent tag/element for shadow root is shadow host
+
+Shadow dom elements we can automate only using cssSelector
+
+If element design with #shadow-root(closed) we can not automate this element
+==================================================================
 svg ele
+=============
+SVG stands for Scalable Vector Graphics. 
+It is an XML-based format used to create vector graphics directly inside HTML.
 
+For xpath use special syntax
+--------------------------------
+//*[name()='svg']
+OR
+//*[local-name()='svg']
+
+===========================================================
 Assertion
 
 Playwright codegen,tags,grouping

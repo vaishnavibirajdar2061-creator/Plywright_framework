@@ -1,1 +1,1 @@
-non-empty text file
+contents that do not matter

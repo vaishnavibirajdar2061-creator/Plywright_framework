@@ -849,8 +849,29 @@ OR
 
 ===========================================================
 Assertion
+-----------------
+- Assertion will help to validate current state of application
+- Playwright support two types of assertion
+1.Hard assertion
+2.Soft assertion
 
-Playwright codegen,tags,grouping
+1.Hard Assertion
+---------------------
+-Excution of current test will stop when assertion fail
+-In Playwright we have autowait for assertion is 5sec so after 5sec you will see error
+
+expect(assertion)
+
+
+2.Soft Assertion
+------------------
+- After failure even test will complete execution
+-In Playwright we have autowait for assertion is 5sec so after 5sec you will see error
+
+expect.soft(assertion)
+==============================================
+
+Playwright codegen,tags,grouping,hooks
 
 screenshots
 video

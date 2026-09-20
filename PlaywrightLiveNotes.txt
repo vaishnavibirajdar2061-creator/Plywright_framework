@@ -870,11 +870,28 @@ expect(assertion)
 
 expect.soft(assertion)
 ==============================================
-
 Playwright codegen,tags,grouping,hooks
 
 screenshots
 video
+
+To maximize Window in Playwright
+-------------------------------
+1.custom function
+2.do project level setup
+In config file 
+ viewport:null,
+    launchOptions:{
+      args:["--start-maximized"]
+    }
+
+Hooks
+-------------
+Hooks for attaching preconditions and postconditions in Playwright
+1.beforeAll
+2.afterAll
+3.beforeEach
+4.afterEach
 
 Framework design
 ====================

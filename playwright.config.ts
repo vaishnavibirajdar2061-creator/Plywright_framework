@@ -32,7 +32,11 @@ export default defineConfig({
     trace: 'on',
     screenshot:'on',
     video:'on',
-    headless:false
+    headless:false,
+     //viewport:{width:1536 ,height:816},
+    // launchOptions:{
+    //   args:["--start-maximized"]
+    // }
 
   },
 

@@ -1,5 +1,11 @@
 1.create new project and install playwright
 2.create folder structure
+
+
+
+
+
+
 3.create test cases with hooks and fixture
 4.to read data from file
 install all libraries

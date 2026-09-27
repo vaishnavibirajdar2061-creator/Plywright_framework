@@ -38,6 +38,12 @@ return this.page.url();
 }
 
 
+async addWait(timeout:number):Promise<void>
+{
+    await this.page.waitForTimeout(timeout);
+
+}
+
 
 
 }

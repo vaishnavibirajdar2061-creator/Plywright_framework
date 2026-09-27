@@ -36,7 +36,12 @@ test("Test for validate Application Url",async({page})=>{
    })
 
    //negative scenario
+   test("Test for login with invalid credentials",async({page})=>{
+   let loginPage=new LoginPage(page);
+   await loginPage.goToLoginPage();
+   await loginPage.doLogin("standard_user","admin123");
+   await expect(page).not.toHaveURL(/inventory/);
+   console.log("Error Message:",await loginPage.getErrorMessage());
+   })
 
-
-   //data driven
-   
+ 

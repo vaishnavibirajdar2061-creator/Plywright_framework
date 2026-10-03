@@ -9,7 +9,11 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.3"
+    "@types/node": "^26.6.3",
+    "@types/papaparse": "^5.5.2",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.13.0",
+    "reporting-labs": "^0.6.9"
   },
   "dependencies": {
     "papaparse": "^5.7.0",

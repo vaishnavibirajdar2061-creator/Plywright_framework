@@ -2,8 +2,8 @@
 
 
 import {test,expect} from "@playwright/test";
-import { LoginPage } from "../src/pages/LoginPage";
-import { InventoryPage } from "../src/pages/InventoryPage";
+import { LoginPage } from "../pages/LoginPage";
+import { InventoryPage } from "../pages/InventoryPage";
 import { log } from "console";
 
 let loginPage:LoginPage;

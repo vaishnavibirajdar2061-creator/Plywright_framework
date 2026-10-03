@@ -1,0 +1,152 @@
+[
+ {
+  "time": 1790998427018,
+  "duration": 18801.212,
+  "passed": 16,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 16,
+  "tests": {
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    7026
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    6348
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    5838
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6463
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    6502
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    1700
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    1369
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    6499
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    4932
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    4128
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    4480
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    4798
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    2337
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    4667
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    3454
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3246
+   ]
+  }
+ },
+ {
+  "time": 1790998857134,
+  "duration": 26601.841,
+  "passed": 16,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 16,
+  "tests": {
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    9963
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    8081
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    9400
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    8671
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    6747
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    5339
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    5944
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    6548
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    7623
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    6896
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    6847
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    3740
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    6050
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    4243
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    4093
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3653
+   ]
+  }
+ }
+]

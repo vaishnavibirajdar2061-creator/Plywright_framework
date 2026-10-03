@@ -1,7 +1,7 @@
 
 
 import {test,expect} from "@playwright/test";
-import { LoginPage } from "../src/pages/LoginPage.js";
+import { LoginPage } from "../pages/LoginPage.js";
 
 //AAA: Arrange--->Act--->Assert
 

@@ -1,11 +1,5 @@
 1.create new project and install playwright
 2.create folder structure
-
-
-
-
-
-
 3.create test cases with hooks and fixture
 4.to read data from file
 install all libraries
@@ -54,7 +48,13 @@ npx allure generate allure-results --clean -o allure-report
 step5: to open report
 npx allure open allure-report
 
+Report3: REportingLabs
+=================================
+https://www.npmjs.com/package/reporting-labs
+A beautiful test report in one HTML file. It tells you what broke, who owns it, and whether it is new.
 
+
+Executable script
 ==============================
 Add executable script
 1.Add it inside package.json file

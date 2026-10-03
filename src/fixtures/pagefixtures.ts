@@ -14,7 +14,7 @@ import { InventoryPage } from "../pages/InventoryPage.js";
 // Declare the  data types of your fixtures.
 type pageFixtures={
 loginPage:LoginPage,//here loginPage is variable type of LoginPage class object
-
+inventoryPage:InventoryPage
 
 }
 
@@ -25,6 +25,11 @@ loginPage:async({page},use)=>{
 let loginPage=new LoginPage(page);
 await loginPage.goToLoginPage();
 await use(loginPage);//Use is object which supply current fixture to your test
+},
+
+inventoryPage:async({page},use)=>{
+   let inventoryPage=new InventoryPage(page);
+await use(inventoryPage);
 }
 
 })

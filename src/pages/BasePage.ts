@@ -38,9 +38,9 @@ return this.page.url();
 }
 
 
-async addWait(timeout:number):Promise<void>
+async addWait():Promise<void>
 {
-    await this.page.waitForTimeout(timeout);
+    await this.page.waitForTimeout(1500);
 
 }
 

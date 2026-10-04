@@ -1,12 +1,19 @@
 import { defineConfig, devices } from '@playwright/test';
-import reportingLabs from './reporting-labs.config';
+import reportingLabs from './reporting-labs.config.js';
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-// import dotenv from 'dotenv';
+import dotenv from 'dotenv';
+
+//Get the current run time env
+const ENV=process.env.ENV || "qa"
+
 // import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+const result=dotenv.config({ path:`config/.env.${ENV}`});
+
+// console.log("DotEnvoirnment Result: ",result);
+// console.log("Application Url: ",process.env.APPURL!);
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -27,8 +34,8 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
-     baseURL: 'https://www.saucedemo.com',
-
+     //baseURL: 'https://www.saucedemo.com',
+      baseURL: process.env.APPURL!,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot:'on',

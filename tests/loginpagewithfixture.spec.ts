@@ -21,7 +21,7 @@ test("Test for Application title",async({loginPage})=>{
 
 test("Test for loginFunctionality with valid credentials",async({loginPage,page})=>{
 
-    await loginPage.doLogin("standard_user","secret_sauce");
+    await loginPage.doLogin(process.env.APPUSERNAME!,process.env.APPPASSWORD!);
     await expect(page).toHaveURL(/inventory/);
     console.log("User navigated to Inventory page!");
     

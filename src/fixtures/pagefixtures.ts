@@ -9,12 +9,14 @@ To create your own fixture, use test.extend()
 import {test as baseTest} from "@playwright/test";
 import { LoginPage } from "../pages/LoginPage.js";
 import { InventoryPage } from "../pages/InventoryPage.js";
+import {CartPage} from "../pages/CartPage.js"
 
 
 // Declare the  data types of your fixtures.
 type pageFixtures={
 loginPage:LoginPage,//here loginPage is variable type of LoginPage class object
 inventoryPage:InventoryPage
+cartPage:CartPage
 
 }
 
@@ -30,6 +32,11 @@ await use(loginPage);//Use is object which supply current fixture to your test
 inventoryPage:async({page},use)=>{
    let inventoryPage=new InventoryPage(page);
 await use(inventoryPage);
+},
+
+cartPage:async({page},use)=>{
+   let cartPage=new CartPage(page);
+   await use(cartPage);
 }
 
 })

@@ -21,6 +21,7 @@ test-results/
 blob-report/
 blob-shard-*/
 all-blob-reports/
+reporting-labs.history.json
 
 # build
 dist/

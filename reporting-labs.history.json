@@ -1,429 +1,5 @@
 [
  {
-  "time": 1790998427018,
-  "duration": 18801.212,
-  "passed": 16,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 16,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    7026
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    6348
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    5838
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    6463
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    6502
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    1700
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    1369
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    6499
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    4932
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    4128
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    4480
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    4798
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    2337
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    4667
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    3454
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    3246
-   ]
-  }
- },
- {
-  "time": 1790998857134,
-  "duration": 26601.841,
-  "passed": 16,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 16,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    9963
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    8081
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    9400
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    8671
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    6747
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    5339
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    5944
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    6548
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    7623
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    6896
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    6847
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    3740
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    6050
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    4243
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    4093
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    3653
-   ]
-  }
- },
- {
-  "time": 1791080759143,
-  "duration": 18237.69,
-  "passed": 16,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 16,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    6370
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    7591
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    6910
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    6214
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    6708
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    3398
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    1443
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    2125
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    3283
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    3397
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    4392
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    2964
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    3005
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    3701
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    2398
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    2465
-   ]
-  }
- },
- {
-  "time": 1791081165224,
-  "duration": 15868.887,
-  "passed": 16,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 16,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    5806
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    6549
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    6100
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    5619
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    6239
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    2379
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    1237
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    2462
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    2838
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    2733
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    2727
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    2855
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    2872
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    2437
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    2794
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    2493
-   ]
-  }
- },
- {
-  "time": 1791084698423,
-  "duration": 5050.945,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    2716
-   ]
-  }
- },
- {
-  "time": 1791084839813,
-  "duration": 4271.707,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    2882
-   ]
-  }
- },
- {
-  "time": 1791084888068,
-  "duration": 4993.614,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    3430
-   ]
-  }
- },
- {
-  "time": 1791084945612,
-  "duration": 34755.304,
-  "passed": 16,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 17,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    13618
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    12906
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    12435
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "f",
-    14111
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    11068
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    11137
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    3938
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    3544
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    4257
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    4665
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    3925
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    4536
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    4664
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    4185
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    3965
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    1516
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    3261
-   ]
-  }
- },
- {
   "time": 1791085041025,
   "duration": 6284.924,
   "passed": 1,
@@ -584,6 +160,683 @@
    "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
     "p",
     2628
+   ]
+  }
+ },
+ {
+  "time": 1791598506676,
+  "duration": 31407.995,
+  "passed": 17,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 17,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    12039
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    11350
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    12508
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    11889
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    12889
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    14159
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2042
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    3970
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    5199
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    3662
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    4507
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    4113
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    4193
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    4415
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    5247
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    4569
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3898
+   ]
+  }
+ },
+ {
+  "time": 1791598906546,
+  "duration": 3978.707,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "f",
+    2606
+   ]
+  }
+ },
+ {
+  "time": 1791598988532,
+  "duration": 3941.692,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    2672
+   ]
+  }
+ },
+ {
+  "time": 1791599038994,
+  "duration": 4671.787,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    3255
+   ]
+  }
+ },
+ {
+  "time": 1791599084634,
+  "duration": 4616.124,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    3250
+   ]
+  }
+ },
+ {
+  "time": 1791599304612,
+  "duration": 4654.005,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    3212
+   ]
+  }
+ },
+ {
+  "time": 1791599496328,
+  "duration": 5312.827,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    3720
+   ]
+  }
+ },
+ {
+  "time": 1791599534898,
+  "duration": 7995.892000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    6126
+   ]
+  }
+ },
+ {
+  "time": 1791599750555,
+  "duration": 4799.4710000000005,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    3319
+   ]
+  }
+ },
+ {
+  "time": 1791599785458,
+  "duration": 9510.94,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    7936
+   ]
+  }
+ },
+ {
+  "time": 1791599954492,
+  "duration": 5426.017,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    3677
+   ]
+  }
+ },
+ {
+  "time": 1791599981078,
+  "duration": 40117.91,
+  "passed": 21,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 21,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    14851
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    14643
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    18063
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    20448
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    11973
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    11680
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    6800
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    6311
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6590
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    9022
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2953
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    2462
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    4597
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    4075
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    4679
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    3654
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    3870
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    2337
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    4561
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    4515
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3820
+   ]
+  }
+ },
+ {
+  "time": 1791601424729,
+  "duration": 6765.764,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "f",
+    5306
+   ]
+  }
+ },
+ {
+  "time": 1791601472589,
+  "duration": 7263.187,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    5683
+   ]
+  }
+ },
+ {
+  "time": 1791601531265,
+  "duration": 7336.802000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    5974
+   ]
+  }
+ },
+ {
+  "time": 1791601592422,
+  "duration": 9856.125,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    8083
+   ]
+  }
+ },
+ {
+  "time": 1791601745616,
+  "duration": 8713.004,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    7444
+   ]
+  }
+ },
+ {
+  "time": 1791601764192,
+  "duration": 8079.439,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    5950
+   ]
+  }
+ },
+ {
+  "time": 1791601843554,
+  "duration": 39663.038,
+  "passed": 23,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 23,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    10639
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    9190
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    13947
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    18637
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    10738
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    17484
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    9344
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    6579
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    7993
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    5857
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6675
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    9646
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2957
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    3269
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    4909
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    5286
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    2881
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    6253
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    3548
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    3700
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    3980
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    2345
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3353
+   ]
+  }
+ },
+ {
+  "time": 1791602959746,
+  "duration": 8840.677000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
+    "p",
+    7458
+   ]
+  }
+ },
+ {
+  "time": 1791603054300,
+  "duration": 9005.511,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
+    "p",
+    7728
+   ]
+  }
+ },
+ {
+  "time": 1791603204197,
+  "duration": 9360.381000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
+    "p",
+    7940
+   ]
+  }
+ },
+ {
+  "time": 1791603239688,
+  "duration": 49958.286,
+  "passed": 26,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 26,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    12831
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    13586
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    13933
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    18426
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    12040
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    14855
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    9190
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    6250
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    7228
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    6883
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6532
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    9564
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    4780
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    3235
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    4786
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    3878
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    4185
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    4950
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    3277
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    4882
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    4394
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    5663
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3998
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
+    "p",
+    10191
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
+    "p",
+    10717
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
+    "p",
+    10796
    ]
   }
  }

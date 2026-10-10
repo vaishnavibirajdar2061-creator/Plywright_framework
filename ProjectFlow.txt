@@ -140,8 +140,16 @@ npm install --save-dev cross-env
 3. run in powsershell
 npm run env:qa
 
+=================================================
+
 //API testing
 ===================
+Manual Testing with postman
+=============================
+
+Automation Testing
+====================
+
 Schema validation
 1. install required package: ajv library
 https://www.npmjs.com/package/ajv
@@ -161,10 +169,6 @@ wanted to validate with respect to schema
 
 -In real time you dont required to generate schema , it wil be 
 provided in detialed design document by developers
-
-
-
-//API
 
 //Devops
 

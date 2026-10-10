@@ -40,7 +40,7 @@ return this.page.url();
 
 async addWait():Promise<void>
 {
-    await this.page.waitForTimeout(1500);
+    await this.page.waitForTimeout(2000);
 
 }
 

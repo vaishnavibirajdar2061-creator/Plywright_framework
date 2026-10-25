@@ -1,583 +1,5 @@
 [
  {
-  "time": 1791085041025,
-  "duration": 6284.924,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    3497
-   ]
-  }
- },
- {
-  "time": 1791085083191,
-  "duration": 14185.591,
-  "passed": 5,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 5,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    9015
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    10467
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    7971
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    9807
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    6865
-   ]
-  }
- },
- {
-  "time": 1791085134109,
-  "duration": 13353.693,
-  "passed": 5,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 5,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    8901
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    9119
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    9834
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    8472
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    8278
-   ]
-  }
- },
- {
-  "time": 1791085162200,
-  "duration": 15517.566,
-  "passed": 4,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 5,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    11051
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    9853
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    8624
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    9224
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "f",
-    11163
-   ]
-  }
- },
- {
-  "time": 1791085225258,
-  "duration": 28.050000000000068,
-  "passed": 0,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 0,
-  "tests": {}
- },
- {
-  "time": 1791085238475,
-  "duration": 16329.325999999997,
-  "passed": 5,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 5,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    9870
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    9098
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    10112
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    9649
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    10445
-   ]
-  }
- },
- {
-  "time": 1791085423091,
-  "duration": 4248.79,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    2628
-   ]
-  }
- },
- {
-  "time": 1791598506676,
-  "duration": 31407.995,
-  "passed": 17,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 17,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    12039
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    11350
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    12508
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    11889
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    12889
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    14159
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    2042
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    3970
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    5199
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    3662
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    4507
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    4113
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    4193
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    4415
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    5247
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    4569
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    3898
-   ]
-  }
- },
- {
-  "time": 1791598906546,
-  "duration": 3978.707,
-  "passed": 0,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "f",
-    2606
-   ]
-  }
- },
- {
-  "time": 1791598988532,
-  "duration": 3941.692,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    2672
-   ]
-  }
- },
- {
-  "time": 1791599038994,
-  "duration": 4671.787,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    3255
-   ]
-  }
- },
- {
-  "time": 1791599084634,
-  "duration": 4616.124,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    3250
-   ]
-  }
- },
- {
-  "time": 1791599304612,
-  "duration": 4654.005,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    3212
-   ]
-  }
- },
- {
-  "time": 1791599496328,
-  "duration": 5312.827,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
-    "p",
-    3720
-   ]
-  }
- },
- {
-  "time": 1791599534898,
-  "duration": 7995.892000000001,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
-    "p",
-    6126
-   ]
-  }
- },
- {
-  "time": 1791599750555,
-  "duration": 4799.4710000000005,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
-    "p",
-    3319
-   ]
-  }
- },
- {
-  "time": 1791599785458,
-  "duration": 9510.94,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
-    "p",
-    7936
-   ]
-  }
- },
- {
-  "time": 1791599954492,
-  "duration": 5426.017,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
-    "p",
-    3677
-   ]
-  }
- },
- {
-  "time": 1791599981078,
-  "duration": 40117.91,
-  "passed": 21,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 21,
-  "tests": {
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    14851
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    14643
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
-    "p",
-    18063
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
-    "p",
-    20448
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
-    "p",
-    11973
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    11680
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    6800
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    6311
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    6590
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    9022
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    2953
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    2462
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    4597
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    4075
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    4679
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    3654
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    3870
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    2337
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    4561
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    4515
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    3820
-   ]
-  }
- },
- {
-  "time": 1791601424729,
-  "duration": 6765.764,
-  "passed": 0,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "f",
-    5306
-   ]
-  }
- },
- {
-  "time": 1791601472589,
-  "duration": 7263.187,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    5683
-   ]
-  }
- },
- {
-  "time": 1791601531265,
-  "duration": 7336.802000000001,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    5974
-   ]
-  }
- },
- {
-  "time": 1791601592422,
-  "duration": 9856.125,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    8083
-   ]
-  }
- },
- {
-  "time": 1791601745616,
-  "duration": 8713.004,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    7444
-   ]
-  }
- },
- {
-  "time": 1791601764192,
-  "duration": 8079.439,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
-    "p",
-    5950
-   ]
-  }
- },
- {
   "time": 1791601843554,
   "duration": 39663.038,
   "passed": 23,
@@ -837,6 +259,581 @@
    "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
     "p",
     10796
+   ]
+  }
+ },
+ {
+  "time": 1792806410857,
+  "duration": 50097.207,
+  "passed": 26,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 26,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    10907
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    12557
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    14327
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    17715
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    11212
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    14669
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    8138
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    7043
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    6528
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    6590
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6014
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    7825
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2014
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    2621
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    4091
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    3815
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    3480
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    3801
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    4405
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    3430
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    3477
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    4814
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    4352
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
+    "p",
+    9832
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
+    "p",
+    9109
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
+    "p",
+    9303
+   ]
+  }
+ },
+ {
+  "time": 1792894943082,
+  "duration": 37366.747,
+  "passed": 26,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 26,
+  "tests": {
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    6524
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    6637
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    10032
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    12696
+   ],
+   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    7875
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    12110
+   ],
+   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    7137
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    4559
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    4988
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    4291
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    5316
+   ],
+   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    7207
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2092
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    2202
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    2985
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    3155
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    3081
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    3236
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    2568
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    3357
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    2905
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    2731
+   ],
+   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    2663
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
+    "p",
+    9265
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
+    "p",
+    8609
+   ],
+   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
+    "p",
+    8172
+   ]
+  }
+ },
+ {
+  "time": 1792895660544,
+  "duration": 1595.447,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
+    "p",
+    899
+   ]
+  }
+ },
+ {
+  "time": 1792895817200,
+  "duration": 1593.6170000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
+    "p",
+    880
+   ]
+  }
+ },
+ {
+  "time": 1792896004345,
+  "duration": 1819.986,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
+    "p",
+    1116
+   ]
+  }
+ },
+ {
+  "time": 1792896117390,
+  "duration": 1434.5230000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
+    "p",
+    713
+   ]
+  }
+ },
+ {
+  "time": 1792896577751,
+  "duration": 1720.161,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
+    "p",
+    1042
+   ]
+  }
+ },
+ {
+  "time": 1792896614431,
+  "duration": 1991.3129999999999,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
+    "p",
+    1286
+   ]
+  }
+ },
+ {
+  "time": 1792896681378,
+  "duration": 1414.005,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
+    "p",
+    703
+   ]
+  }
+ },
+ {
+  "time": 1792897566784,
+  "duration": 1534.2820000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
+    "p",
+    845
+   ]
+  }
+ },
+ {
+  "time": 1792897585240,
+  "duration": 1563.5839999999998,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
+    "p",
+    874
+   ]
+  }
+ },
+ {
+  "time": 1792897644342,
+  "duration": 1614.3220000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
+    "p",
+    936
+   ]
+  }
+ },
+ {
+  "time": 1792897714572,
+  "duration": 1334.4879999999998,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
+    "p",
+    661
+   ]
+  }
+ },
+ {
+  "time": 1792898459610,
+  "duration": 1369.896,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    667
+   ]
+  }
+ },
+ {
+  "time": 1792899200210,
+  "duration": 1388.1390000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    701
+   ]
+  }
+ },
+ {
+  "time": 1792899466799,
+  "duration": 1392.0140000000001,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    727
+   ]
+  }
+ },
+ {
+  "time": 1792899621611,
+  "duration": 1458.203,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    675
+   ]
+  }
+ },
+ {
+  "time": 1792899724271,
+  "duration": 1459.5439999999999,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    698
+   ]
+  }
+ },
+ {
+  "time": 1792899809743,
+  "duration": 1413.547,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    676
+   ]
+  }
+ },
+ {
+  "time": 1792900073496,
+  "duration": 1409.996,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    711
+   ]
+  }
+ },
+ {
+  "time": 1792900093233,
+  "duration": 1627.826,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    753
+   ]
+  }
+ },
+ {
+  "time": 1792900591612,
+  "duration": 2471.4,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload": [
+    "f",
+    1765
+   ]
+  }
+ },
+ {
+  "time": 1792900637584,
+  "duration": 1447.0400000000002,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload": [
+    "p",
+    684
+   ]
+  }
+ },
+ {
+  "time": 1792901483921,
+  "duration": 1715.912,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload using utility": [
+    "f",
+    760
+   ]
+  }
+ },
+ {
+  "time": 1792901536941,
+  "duration": 1361.688,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload using utility": [
+    "p",
+    671
    ]
   }
  }

@@ -141,6 +141,8 @@ npm install --save-dev cross-env
 npm run env:qa
 
 =================================================
+24-10-2026
+===============
 
 //API testing
 ===================
@@ -149,6 +151,32 @@ Manual Testing with postman
 
 Automation Testing
 ====================
+get()
+=============
+Sends HTTP(S) GET request and returns its response.
+
+status()
+==============
+Contains the status code of the response (e.g., 200 for a success).
+
+statusText()
+================
+Contains the status text of the response (e.g. usually an "OK" for a success).
+
+body()
+============
+Returns the buffer with response body.
+
+text():Promise<string>
+===========
+Returns the text representation of response body.
+
+json():Promise<any>
+=======================
+Returns the JSON representation of response body.
+This method will throw if the response body is not parsable via JSON.parse.
+
+
 
 Schema validation
 1. install required package: ajv library

@@ -3,6 +3,7 @@
 import {test,expect, APIResponse} from "@playwright/test";
 import { Buffer } from "buffer";
 import { json } from "stream/consumers";
+import { readingAPIPayload } from "../../src/utilities/ReadingAPI.js";
 
 test("Test for NOAuth",async({request})=>{
 
@@ -53,5 +54,27 @@ test('Test for API Key',async({request})=>{
     let jsonResponse=await response.json();
     console.log(jsonResponse);
     
+
+})
+
+test("Test for Bearer Token API",async({request})=>{
+
+    let token=process.env.APITOKEN!;
+    //payload
+
+let emailId="priyanka"+new Date().getTime()+"@gmail.com";
+
+let payload={
+    "name": "Priyanka Nigade",
+    "email": `${emailId}`
+}
+
+
+const response:APIResponse=await request.post("https://gorest.co.in/public/v3/users",{headers:{
+    Authorization:`Bearer ${token}`
+},data:payload})
+
+
+expect(response.status()).toBe(201);
 
 })

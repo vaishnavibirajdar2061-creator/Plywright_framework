@@ -1,593 +1,5 @@
 [
  {
-  "time": 1793416975800,
-  "duration": 2248.0389999999998,
-  "passed": 3,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 3,
-  "tests": {
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update full record": [
-    "p",
-    1098
-   ],
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update partial record": [
-    "p",
-    1082
-   ],
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::create booking--->generate token--->delete booking": [
-    "p",
-    1062
-   ]
-  }
- },
- {
-  "time": 1793418915554,
-  "duration": 1960.8890000000001,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "p",
-    737
-   ]
-  }
- },
- {
-  "time": 1793419088191,
-  "duration": 1772.826,
-  "passed": 0,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "f",
-    687
-   ]
-  }
- },
- {
-  "time": 1793419143694,
-  "duration": 1919.0800000000002,
-  "passed": 0,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "f",
-    753
-   ]
-  }
- },
- {
-  "time": 1793419236749,
-  "duration": 1823.1060000000002,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "p",
-    689
-   ]
-  }
- },
- {
-  "time": 1793419421812,
-  "duration": 51718.454000000005,
-  "passed": 46,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 46,
-  "tests": {
-   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
-    "p",
-    935
-   ],
-   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
-    "p",
-    906
-   ],
-   "chromium::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
-    "p",
-    947
-   ],
-   "chromium::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
-    "p",
-    745
-   ],
-   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload": [
-    "p",
-    732
-   ],
-   "chromium::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload using utility": [
-    "p",
-    734
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Booking": [
-    "p",
-    595
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › GET: Get the booking details": [
-    "p",
-    606
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Token": [
-    "p",
-    627
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PUT: Update full booking": [
-    "p",
-    821
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PATCH: update partial booking": [
-    "p",
-    919
-   ],
-   "chromium::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › DELETE: delete booking": [
-    "p",
-    712
-   ],
-   "chromium::tests/api/Tc05_APIChaining.spec.ts::Create a new booking--->get the same booking details": [
-    "p",
-    794
-   ],
-   "chromium::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update full record": [
-    "p",
-    987
-   ],
-   "chromium::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update partial record": [
-    "p",
-    992
-   ],
-   "chromium::tests/api/Tc05_APIChaining.spec.ts::create booking--->generate token--->delete booking": [
-    "p",
-    990
-   ],
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update full record": [
-    "p",
-    990
-   ],
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update partial record": [
-    "p",
-    1006
-   ],
-   "chromium::tests/api/Tc06_APIChainingWithHooks.spec.ts::create booking--->generate token--->delete booking": [
-    "p",
-    1037
-   ],
-   "chromium::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "p",
-    813
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    8285
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    9741
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
-    "p",
-    12916
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
-    "p",
-    15793
-   ],
-   "chromium::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
-    "p",
-    9272
-   ],
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    13234
-   ],
-   "chromium::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
-    "p",
-    8700
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    7578
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    6467
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    6762
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    5923
-   ],
-   "chromium::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    8056
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    2096
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    2547
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    4030
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    2899
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    5243
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    8459
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    3535
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    3371
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    3668
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    4250
-   ],
-   "chromium::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    4123
-   ],
-   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
-    "p",
-    10229
-   ],
-   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
-    "p",
-    9414
-   ],
-   "chromium::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
-    "p",
-    9491
-   ]
-  }
- },
- {
-  "time": 1793419638742,
-  "duration": 46470.451,
-  "passed": 26,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 26,
-  "tests": {
-   "ui::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
-    "p",
-    10695
-   ],
-   "ui::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
-    "p",
-    12463
-   ],
-   "ui::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
-    "p",
-    12797
-   ],
-   "ui::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
-    "p",
-    14894
-   ],
-   "ui::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
-    "p",
-    10674
-   ],
-   "ui::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
-    "p",
-    16177
-   ],
-   "ui::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
-    "p",
-    8572
-   ],
-   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
-    "p",
-    7014
-   ],
-   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
-    "p",
-    6614
-   ],
-   "ui::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
-    "p",
-    6140
-   ],
-   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
-    "p",
-    5464
-   ],
-   "ui::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
-    "p",
-    7200
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
-    "p",
-    2611
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for Application title": [
-    "p",
-    3123
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
-    "p",
-    4206
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
-    "p",
-    4718
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
-    "p",
-    3681
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
-    "p",
-    3500
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
-    "p",
-    4678
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
-    "p",
-    2904
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
-    "p",
-    4516
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
-    "p",
-    5965
-   ],
-   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
-    "p",
-    5067
-   ],
-   "ui::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
-    "p",
-    9403
-   ],
-   "ui::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
-    "p",
-    8925
-   ],
-   "ui::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
-    "p",
-    9118
-   ]
-  }
- },
- {
-  "time": 1793419692432,
-  "duration": 36.839000000000055,
-  "passed": 0,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 0,
-  "tests": {}
- },
- {
-  "time": 1793419727073,
-  "duration": 6099.25,
-  "passed": 20,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 20,
-  "tests": {
-   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
-    "p",
-    1152
-   ],
-   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
-    "p",
-    1274
-   ],
-   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
-    "p",
-    1198
-   ],
-   "api::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
-    "p",
-    824
-   ],
-   "api::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload": [
-    "p",
-    752
-   ],
-   "api::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload using utility": [
-    "p",
-    779
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Booking": [
-    "p",
-    623
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › GET: Get the booking details": [
-    "p",
-    598
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Token": [
-    "p",
-    601
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PUT: Update full booking": [
-    "p",
-    598
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PATCH: update partial booking": [
-    "p",
-    588
-   ],
-   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › DELETE: delete booking": [
-    "p",
-    585
-   ],
-   "api::tests/api/Tc05_APIChaining.spec.ts::Create a new booking--->get the same booking details": [
-    "p",
-    824
-   ],
-   "api::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update full record": [
-    "p",
-    1086
-   ],
-   "api::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update partial record": [
-    "p",
-    1040
-   ],
-   "api::tests/api/Tc05_APIChaining.spec.ts::create booking--->generate token--->delete booking": [
-    "p",
-    1005
-   ],
-   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update full record": [
-    "p",
-    2066
-   ],
-   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update partial record": [
-    "p",
-    1227
-   ],
-   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::create booking--->generate token--->delete booking": [
-    "p",
-    1055
-   ],
-   "api::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
-    "p",
-    634
-   ]
-  }
- },
- {
-  "time": 1793499607206,
-  "duration": 6588.057,
-  "passed": 2,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 2,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "p",
-    4032
-   ],
-   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "p",
-    3729
-   ]
-  }
- },
- {
-  "time": 1793499702440,
-  "duration": 5333.2119999999995,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "p",
-    3191
-   ]
-  }
- },
- {
-  "time": 1793500252143,
-  "duration": 45599.83799999999,
-  "passed": 0,
-  "failed": 1,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "f",
-    43527
-   ]
-  }
- },
- {
-  "time": 1793500361918,
-  "duration": 5710.898999999976,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "p",
-    3450
-   ]
-  }
- },
- {
-  "time": 1793500668281,
-  "duration": 5314.416000000001,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
-    "p",
-    3099
-   ]
-  }
- },
- {
-  "time": 1793501050743,
-  "duration": 5679.297000000253,
-  "passed": 1,
-  "failed": 0,
-  "flaky": 0,
-  "skipped": 0,
-  "total": 1,
-  "tests": {
-   "chromium::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test for Single API request interception": [
-    "p",
-    3293
-   ]
-  }
- },
- {
   "time": 1793501504840,
   "duration": 3942.726,
   "passed": 2,
@@ -817,6 +229,499 @@
    "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for API Key": [
     "p",
     298
+   ]
+  }
+ },
+ {
+  "time": 1794019145019,
+  "duration": 1601.265,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    28
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    34
+   ]
+  }
+ },
+ {
+  "time": 1794019239473,
+  "duration": 1003.4659999999999,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    26
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    21
+   ]
+  }
+ },
+ {
+  "time": 1794019615910,
+  "duration": 1264.649,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    213
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    196
+   ]
+  }
+ },
+ {
+  "time": 1794019739413,
+  "duration": 1584.2600000000002,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    207
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    211
+   ]
+  }
+ },
+ {
+  "time": 1794019812035,
+  "duration": 1266.9579999999999,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    352
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    140
+   ]
+  }
+ },
+ {
+  "time": 1794019885417,
+  "duration": 1407.1399999999999,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    206
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    206
+   ]
+  }
+ },
+ {
+  "time": 1794019986428,
+  "duration": 953.519,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    145
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    164
+   ]
+  }
+ },
+ {
+  "time": 1794020092982,
+  "duration": 1166.23,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    149
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    146
+   ]
+  }
+ },
+ {
+  "time": 1794020152676,
+  "duration": 2129.556,
+  "passed": 0,
+  "failed": 2,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    441
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "f",
+    407
+   ]
+  }
+ },
+ {
+  "time": 1794020219214,
+  "duration": 1436.4270000000001,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    193
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    222
+   ]
+  }
+ },
+ {
+  "time": 1794020258505,
+  "duration": 1783.672,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    223
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    249
+   ]
+  }
+ },
+ {
+  "time": 1794022518712,
+  "duration": 2142.911,
+  "passed": 1,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc010_OpenAuth.spec.ts::Test for OpenAuth2.0": [
+    "p",
+    488
+   ],
+   "api::tests/api/Tc010_OpenAuth.spec.ts::Test for OpenAuth2.0": [
+    "f",
+    724
+   ]
+  }
+ },
+ {
+  "time": 1794022714286,
+  "duration": 1926.7290000000003,
+  "passed": 2,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 2,
+  "tests": {
+   "chromium::tests/api/Tc010_OpenAuth.spec.ts::Test for OpenAuth2.0": [
+    "p",
+    980
+   ],
+   "api::tests/api/Tc010_OpenAuth.spec.ts::Test for OpenAuth2.0": [
+    "p",
+    880
+   ]
+  }
+ },
+ {
+  "time": 1794022943362,
+  "duration": 18119.684,
+  "passed": 30,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 30,
+  "tests": {
+   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get all Booking Ids": [
+    "p",
+    783
+   ],
+   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get All booking Ids With BaseUrl": [
+    "p",
+    757
+   ],
+   "api::tests/api/Tc01_GetRequest.spec.ts::GET Request: Get BookingIds for Path and Query parameter": [
+    "p",
+    777
+   ],
+   "api::tests/api/Tc010_OpenAuth.spec.ts::Test for OpenAuth2.0": [
+    "p",
+    63
+   ],
+   "api::tests/api/Tc02_PostRequest.spec.ts::POST Request: Create new booking with Manual copy paste Payload": [
+    "p",
+    777
+   ],
+   "api::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload": [
+    "p",
+    830
+   ],
+   "api::tests/api/Tc03_PostRequestWithFilePayload.spec.ts::POST Request: Create new booking with File Payload using utility": [
+    "p",
+    761
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Booking": [
+    "p",
+    618
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › GET: Get the booking details": [
+    "p",
+    597
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › POST: Create new Token": [
+    "p",
+    655
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PUT: Update full booking": [
+    "p",
+    1125
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › PATCH: update partial booking": [
+    "p",
+    1424
+   ],
+   "api::tests/api/Tc04_SerialAPIChaining.spec.ts::This is for API chaining › DELETE: delete booking": [
+    "p",
+    958
+   ],
+   "api::tests/api/Tc05_APIChaining.spec.ts::Create a new booking--->get the same booking details": [
+    "p",
+    826
+   ],
+   "api::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update full record": [
+    "p",
+    1016
+   ],
+   "api::tests/api/Tc05_APIChaining.spec.ts::Create booking--->generate token-->update partial record": [
+    "p",
+    1014
+   ],
+   "api::tests/api/Tc05_APIChaining.spec.ts::create booking--->generate token--->delete booking": [
+    "p",
+    1019
+   ],
+   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update full record": [
+    "p",
+    1022
+   ],
+   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::Create booking--->generate token-->update partial record": [
+    "p",
+    1026
+   ],
+   "api::tests/api/Tc06_APIChainingWithHooks.spec.ts::create booking--->generate token--->delete booking": [
+    "p",
+    1037
+   ],
+   "api::tests/api/Tc07_APISchemaValidation.spec.ts::For Create bookingSchema validation": [
+    "p",
+    779
+   ],
+   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test For API interception and observe the request": [
+    "p",
+    8778
+   ],
+   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test for Single API request interception": [
+    "p",
+    8268
+   ],
+   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test for API Interception to block any request": [
+    "p",
+    6463
+   ],
+   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::APIInterception with API response mocking": [
+    "p",
+    6212
+   ],
+   "api::tests/api/Tc08_APIInterception_Mocking.spec.ts::Test for API Mocking": [
+    "p",
+    6759
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for NOAuth": [
+    "p",
+    252
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::API for Basic Authentication": [
+    "p",
+    1048
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for API Key": [
+    "p",
+    940
+   ],
+   "api::tests/api/Tc09_APIAutorization.spec.ts::Test for Bearer Token API": [
+    "p",
+    193
+   ]
+  }
+ },
+ {
+  "time": 1794022991599,
+  "duration": 49599.734000000004,
+  "passed": 26,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 26,
+  "tests": {
+   "ui::tests/cartpagewithfixture.spec.ts::Test for Launch of cart page": [
+    "p",
+    10697
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for get cart product details": [
+    "p",
+    14469
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for Product remove from cart": [
+    "p",
+    13848
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for Continue shopping": [
+    "p",
+    19379
+   ],
+   "ui::tests/cartpagewithfixture.spec.ts::Test for launch of checkout page": [
+    "p",
+    14346
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for checkout process": [
+    "p",
+    17908
+   ],
+   "ui::tests/checkoutpagewithfixture.spec.ts::Test for Cancel checkout process": [
+    "p",
+    9137
+   ],
+   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Product count validation": [
+    "p",
+    7531
+   ],
+   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Product details": [
+    "p",
+    6986
+   ],
+   "ui::tests/invnetorypagewithfixture.spec.ts::Test for add product into cart": [
+    "p",
+    7518
+   ],
+   "ui::tests/invnetorypagewithfixture.spec.ts::Test for Footerlink validation": [
+    "p",
+    6770
+   ],
+   "ui::tests/invnetorypagewithfixture.spec.ts::Test for navigation to cart page": [
+    "p",
+    8528
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for Application url validation": [
+    "p",
+    2400
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for Application title": [
+    "p",
+    3593
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for loginFunctionality with valid credentials": [
+    "p",
+    5400
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for login functionality with invalid credentials": [
+    "p",
+    4121
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 1": [
+    "p",
+    5084
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 2": [
+    "p",
+    4105
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 3": [
+    "p",
+    3846
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with excel data driven for id 4": [
+    "p",
+    4634
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 11": [
+    "p",
+    3911
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 12": [
+    "p",
+    4264
+   ],
+   "ui::tests/loginpagewithfixture.spec.ts::Test for invalid credentials with csv data driven for id 13": [
+    "p",
+    3811
+   ],
+   "ui::tests/overviewpagewithfixture.spec.ts::Test for Payment details": [
+    "p",
+    9948
+   ],
+   "ui::tests/overviewpagewithfixture.spec.ts::Test for Finish checkout-overview porecss": [
+    "p",
+    10269
+   ],
+   "ui::tests/overviewpagewithfixture.spec.ts::Test for Overviewpage cancel process": [
+    "p",
+    10062
    ]
   }
  }
